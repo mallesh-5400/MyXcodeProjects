@@ -12,7 +12,7 @@ class SecondViewController: UIViewController, FirstProtocol {
         print("this is fourth Protocol")
     }
     
-    static var location: String?
+    var location: String?
     var company: String?
     
     static func third() {

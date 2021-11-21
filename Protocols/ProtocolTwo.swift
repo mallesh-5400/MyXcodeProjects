@@ -9,6 +9,6 @@ import Foundation
 
 protocol SecondProtocol {
     var company: String? { get }
-    static var location: String? { get }
+    var location: String? { get }
      func second()
 }
