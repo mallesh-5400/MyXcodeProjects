@@ -8,7 +8,7 @@
 import UIKit
 
 class SecondViewController: UIViewController, FirstProtocol {
-    static func fourthProtocol() {
+    func fourthProtocol() {
         print("this is fourth Protocol")
     }
     

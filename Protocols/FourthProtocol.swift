@@ -8,5 +8,5 @@
 import Foundation
 
 protocol FourthProtocol {
-    static func fourthProtocol()
+    func fourthProtocol()
 }
